@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var cardData: HomeViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 10) {
+                    ForEach(cardData.cards, id: \.id) { card in
+                        NavigationLink(destination: DetailedCardView(card: card)) {
+                            CardView(card: card)
+                                .background(Color.clear)
+                                .padding(.vertical, 5)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                    }
+                }
+                .background(.white)
+            }
+        }
     }
+    
 }
 
 #Preview {
     HomeView()
+        .environmentObject(HomeViewModel())
 }

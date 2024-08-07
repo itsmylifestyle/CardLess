@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A72FCF1A8202886897EF6BE /* Pods_cardLess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C923AE46D86B44A6F82D6B85 /* Pods_cardLess.framework */; };
+		A717FF0B2C5875A30088796D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A717FF0A2C5875A30088796D /* Manager.swift */; };
+		A717FF0E2C5875D20088796D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A717FF0D2C5875D20088796D /* UserData.swift */; };
+		A717FF142C588EAC0088796D /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A717FF132C588EAC0088796D /* SignUp.swift */; };
+		A717FF182C5895AA0088796D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A717FF172C5895AA0088796D /* HomeView.swift */; };
 		A74B82872C5870CA00CA1B14 /* cardLessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B82862C5870CA00CA1B14 /* cardLessApp.swift */; };
-		A74B82892C5870CA00CA1B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B82882C5870CA00CA1B14 /* ContentView.swift */; };
+		A74B82892C5870CA00CA1B14 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74B82882C5870CA00CA1B14 /* SignIn.swift */; };
 		A74B828B2C5870CB00CA1B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74B828A2C5870CB00CA1B14 /* Assets.xcassets */; };
 		A74B828E2C5870CB00CA1B14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74B828D2C5870CB00CA1B14 /* Preview Assets.xcassets */; };
+		A74B82952C58712900CA1B14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A74B82942C58712900CA1B14 /* GoogleService-Info.plist */; };
+		A770CB072C59B97D009D0294 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A770CB062C59B97D009D0294 /* CardView.swift */; };
+		A770CB092C59C639009D0294 /* DetailedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A770CB082C59C639009D0294 /* DetailedCardView.swift */; };
+		A770CB122C59D861009D0294 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A770CB112C59D861009D0294 /* MainView.swift */; };
+		A770CB142C59E3BF009D0294 /* AddNewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A770CB132C59E3BF009D0294 /* AddNewCardView.swift */; };
+		A770CB162C59F0BE009D0294 /* NewCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A770CB152C59F0BE009D0294 /* NewCardViewModel.swift */; };
+		A78C25642C59A95600D20C4D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C25632C59A95600D20C4D /* Card.swift */; };
+		A78C25692C59AF8A00D20C4D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C25682C59AF8A00D20C4D /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EC00DC7C72E0A574CE2554A /* Pods-cardLess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardLess.release.xcconfig"; path = "Target Support Files/Pods-cardLess/Pods-cardLess.release.xcconfig"; sourceTree = "<group>"; };
+		A717FF0A2C5875A30088796D /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A717FF0D2C5875D20088796D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A717FF132C588EAC0088796D /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		A717FF172C5895AA0088796D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A74B82832C5870CA00CA1B14 /* cardLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74B82862C5870CA00CA1B14 /* cardLessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardLessApp.swift; sourceTree = "<group>"; };
-		A74B82882C5870CA00CA1B14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A74B82882C5870CA00CA1B14 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		A74B828A2C5870CB00CA1B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74B828D2C5870CB00CA1B14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74B82942C58712900CA1B14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A770CB062C59B97D009D0294 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A770CB082C59C639009D0294 /* DetailedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCardView.swift; sourceTree = "<group>"; };
+		A770CB112C59D861009D0294 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A770CB132C59E3BF009D0294 /* AddNewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCardView.swift; sourceTree = "<group>"; };
+		A770CB152C59F0BE009D0294 /* NewCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardViewModel.swift; sourceTree = "<group>"; };
+		A78C25632C59A95600D20C4D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A78C25682C59AF8A00D20C4D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C923AE46D86B44A6F82D6B85 /* Pods_cardLess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cardLess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6563F591D67846BD0269DF6 /* Pods-cardLess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardLess.debug.xcconfig"; path = "Target Support Files/Pods-cardLess/Pods-cardLess.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +54,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A72FCF1A8202886897EF6BE /* Pods_cardLess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B181C35FF8416CA5C254C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C923AE46D86B44A6F82D6B85 /* Pods_cardLess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73C4817B736A9547AFF2BB25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6563F591D67846BD0269DF6 /* Pods-cardLess.debug.xcconfig */,
+				9EC00DC7C72E0A574CE2554A /* Pods-cardLess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A717FF092C58758F0088796D /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A717FF0A2C5875A30088796D /* Manager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		A717FF0C2C5875C30088796D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A717FF0D2C5875D20088796D /* UserData.swift */,
+				A78C25632C59A95600D20C4D /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A717FF122C588E990088796D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A717FF152C58958E0088796D /* Registration */,
+				A717FF162C58959C0088796D /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A717FF152C58958E0088796D /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				A74B82882C5870CA00CA1B14 /* SignIn.swift */,
+				A717FF132C588EAC0088796D /* SignUp.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		A717FF162C58959C0088796D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A717FF172C5895AA0088796D /* HomeView.swift */,
+				A770CB132C59E3BF009D0294 /* AddNewCardView.swift */,
+				A770CB062C59B97D009D0294 /* CardView.swift */,
+				A770CB082C59C639009D0294 /* DetailedCardView.swift */,
+				A770CB112C59D861009D0294 /* MainView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		A74B827A2C5870CA00CA1B14 = {
 			isa = PBXGroup;
 			children = (
 				A74B82852C5870CA00CA1B14 /* cardLess */,
 				A74B82842C5870CA00CA1B14 /* Products */,
+				73C4817B736A9547AFF2BB25 /* Pods */,
+				31B181C35FF8416CA5C254C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +146,12 @@
 		A74B82852C5870CA00CA1B14 /* cardLess */ = {
 			isa = PBXGroup;
 			children = (
+				A78C25652C59AA0C00D20C4D /* ViewModel */,
+				A717FF122C588E990088796D /* View */,
+				A717FF0C2C5875C30088796D /* Model */,
+				A717FF092C58758F0088796D /* NetworkManager */,
 				A74B82862C5870CA00CA1B14 /* cardLessApp.swift */,
-				A74B82882C5870CA00CA1B14 /* ContentView.swift */,
+				A74B82942C58712900CA1B14 /* GoogleService-Info.plist */,
 				A74B828A2C5870CB00CA1B14 /* Assets.xcassets */,
 				A74B828C2C5870CB00CA1B14 /* Preview Content */,
 			);
@@ -67,6 +166,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A78C25652C59AA0C00D20C4D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A78C25682C59AF8A00D20C4D /* HomeViewModel.swift */,
+				A770CB152C59F0BE009D0294 /* NewCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A74B82912C5870CB00CA1B14 /* Build configuration list for PBXNativeTarget "cardLess" */;
 			buildPhases = (
+				BF031F5D96B064DF79AC4FF8 /* [CP] Check Pods Manifest.lock */,
 				A74B827F2C5870CA00CA1B14 /* Sources */,
 				A74B82802C5870CA00CA1B14 /* Frameworks */,
 				A74B82812C5870CA00CA1B14 /* Resources */,
+				CEB686CE21D82E882D298918 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +237,72 @@
 			files = (
 				A74B828E2C5870CB00CA1B14 /* Preview Assets.xcassets in Resources */,
 				A74B828B2C5870CB00CA1B14 /* Assets.xcassets in Resources */,
+				A74B82952C58712900CA1B14 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF031F5D96B064DF79AC4FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cardLess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB686CE21D82E882D298918 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cardLess/Pods-cardLess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cardLess/Pods-cardLess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cardLess/Pods-cardLess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A74B827F2C5870CA00CA1B14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74B82892C5870CA00CA1B14 /* ContentView.swift in Sources */,
+				A74B82892C5870CA00CA1B14 /* SignIn.swift in Sources */,
+				A770CB072C59B97D009D0294 /* CardView.swift in Sources */,
+				A717FF0B2C5875A30088796D /* Manager.swift in Sources */,
+				A770CB162C59F0BE009D0294 /* NewCardViewModel.swift in Sources */,
+				A717FF0E2C5875D20088796D /* UserData.swift in Sources */,
+				A717FF182C5895AA0088796D /* HomeView.swift in Sources */,
+				A78C25692C59AF8A00D20C4D /* HomeViewModel.swift in Sources */,
+				A770CB092C59C639009D0294 /* DetailedCardView.swift in Sources */,
+				A770CB122C59D861009D0294 /* MainView.swift in Sources */,
 				A74B82872C5870CA00CA1B14 /* cardLessApp.swift in Sources */,
+				A717FF142C588EAC0088796D /* SignUp.swift in Sources */,
+				A78C25642C59A95600D20C4D /* Card.swift in Sources */,
+				A770CB142C59E3BF009D0294 /* AddNewCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +346,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +409,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,15 +430,18 @@
 		};
 		A74B82922C5870CB00CA1B14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6563F591D67846BD0269DF6 /* Pods-cardLess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cardLess/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UGZTB7VYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CardLess;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,8 +452,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aibekigizbayev.cardLess;
+				PRODUCT_BUNDLE_IDENTIFIER = aibekigizbayev.cardLessn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +463,18 @@
 		};
 		A74B82932C5870CB00CA1B14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC00DC7C72E0A574CE2554A /* Pods-cardLess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cardLess/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UGZTB7VYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CardLess;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,8 +485,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = aibekigizbayev.cardLess;
+				PRODUCT_BUNDLE_IDENTIFIER = aibekigizbayev.cardLessn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
